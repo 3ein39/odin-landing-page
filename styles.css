@@ -2,3 +2,30 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 124px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
