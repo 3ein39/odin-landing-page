@@ -3,6 +3,22 @@ body {
     padding: 0px;
 }
 
+.dark-background {
+    background-color: #1F2937;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -26,6 +42,37 @@ ul {
 
 li {
     text-decoration: none;
+
+}
+
+.card {
+    display: flex;
+    padding: 124px;
+    /* padding-top: px; */
+    /* padding-bottom: 124px; */
+    gap: 16px;
+    justify-content: center;
+}
+
+.card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 40%;
+}
+
+img {
+    flex: 1;
+    /* width: 300px; */
+    /* min-width: 500px; */
+    max-width: 550px;
+}
+
+.card-button {
+    max-width: fit-content;
+    padding: 8px;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #ffffff;
+    background-color: rgb(36, 93, 201);
 }
