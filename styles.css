@@ -168,3 +168,10 @@ li {
     border-style: solid;
     height: fit-content;
 }
+
+footer {
+    font-weight: bold;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
