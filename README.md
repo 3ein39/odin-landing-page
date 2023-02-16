@@ -1,9 +1,8 @@
 # Odin Landing Page
 
-Odin Landing Page is a simple landing page built with HTML, CSS, and JavaScript. It was created as a project for [The Odin Project](https://www.theodinproject.com/) curriculum.
+Odin Landing Page is a simple landing page built with HTML and CSS. It was created as a project for [The Odin Project](https://www.theodinproject.com/) curriculum.
 
-The landing page features a responsive design that adapts to different screen sizes, a navigation menu that smoothly scrolls to different sections of the page, and a contact form.
-
+The landing page features a responsive design that adapts to different screen sizes.
 
 ## Usage
 
