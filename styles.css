@@ -115,3 +115,27 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+.quote-bg {
+    background-color: #e5e7eb;
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    max-width: 40%;
+}
+
+.quote-txt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-family: sans-serif;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
