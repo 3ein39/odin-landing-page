@@ -125,7 +125,7 @@ li {
 }
 
 .quote {
-    max-width: 40%;
+    max-width: 60%;
 }
 
 .quote-txt {
@@ -138,4 +138,33 @@ li {
 .quote-author {
     display: flex;
     justify-content: flex-end;
+}
+
+.call {
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    background-color: #3882f6;
+
+    display: flex;
+    border-radius: 14px;
+    padding: 84px;
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.call-button {
+    max-width: fit-content;
+    padding: 8px;
+    font-size: 18px;
+    color: #ffffff;
+    border-color: white;
+    background-color: #3882f6;
+    border-radius: 6px;
+    border-width: 4px;
+    border-style: solid;
+    height: fit-content;
 }
