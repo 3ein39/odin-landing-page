@@ -7,6 +7,19 @@ body {
     background-color: #1F2937;
 }
 
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family: sans-serif;
+}
+
+
+.secondary-text-black {
+    font-size: 18px;
+    color: #1f2937;
+}
+
 .main-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -62,7 +75,7 @@ li {
     max-width: 40%;
 }
 
-img {
+.image-big {
     flex: 1;
     /* width: 300px; */
     /* min-width: 500px; */
@@ -74,5 +87,31 @@ img {
     padding: 8px;
     font-size: 18px;
     color: #ffffff;
-    background-color: rgb(36, 93, 201);
+    background-color: #3882f6;
+}
+
+.img-small {
+    width: 100px;
+    height: fit-content;
+}
+
+.card-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.grid {
+    display: flex;
+    gap: 16px;
+    padding: 48px;
+}
+
+.card-small {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
